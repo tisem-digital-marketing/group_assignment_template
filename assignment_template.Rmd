@@ -1,0 +1,63 @@
+---
+title: "Group Assignment XX"
+author:
+    - Research in Social Media @ TiSEM
+date: "Block 4, 2021"
+
+duedate: "1st of May, 2021"
+duetime: "23:45 CET"
+
+fontfamily: mathpazo
+fontsize: 11pt
+header-includes:
+   - \linespread{1.05}
+output:
+  #- unilur::tutorial_pdf_solution
+  #- unilur::tutorial_pdf
+  - unilur::answer_rmd
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\hrulefill
+
+## Instructions
+
+This group assignment is due on the **`r rmarkdown::metadata$duedate`** at **`r rmarkdown::metadata$duetime`**.
+
+Solutions should be turned in via GitHub Classroom.^[
+  Review the [tutorial](INSERT_LINK) for how to accept the group assignment from GitHub.
+]
+**Only most recent commit on the master branch when the assignment is due will be graded**.
+Your solution must use the `Rmarkdown` template provided in the assignment's repository that you cloned for this assignment. 
+Failure to do so will result in a assignment grade of **zero**.
+Refer to the repository's `README.md` for instructions on how to complete the title and author fields for submission.
+
+Remember, your goal is to communicate. 
+Full credit will be given only to the correct solution which is described clearly. 
+Convoluted and obtuse descriptions might receive low marks, even when they are correct. 
+Also, aim for concise solutions, as it will save you time spent on write-ups, and also help you conceptualize the key idea ofthe problem.
+
+\medskip
+
+\hrulefill
+
+## Part I - XXX
+
+- An Example Question
+
+```{r, solution = TRUE}
+#an example solution
+mean(cars$speed)
+```
+
+\newpage
+
+## Part II - Something
+
+## Part III - Something
+
+## Part IV - Something
+
