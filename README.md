@@ -13,7 +13,7 @@ Provides a bare bones template to construct a group assignment.
 PDF documents are created using `unilur` which enables the creation of assignment, solution and student submission file in an integrated way.
 
 I use `renv` to manage package dependencies.
-After cloning this repository use `renv::restore()` to install the necessary packages to an isolated environment.
+After cloning this repository use `renv::restore()` to install the necessary packages to an isolated `R` environment.
 
 ## License
 
